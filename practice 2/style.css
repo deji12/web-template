@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    background-image: url("2.jpg");
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+ h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+ }
+
+ .email p {
+    font-weight: bold;
+    padding: 10px;
+ }
+
+ .call p {
+    font-weight: bold;
+    padding: 10px;
+ }
+
+ .nav-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+ }
+
+.nav-1 button {
+    border: none;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    width: 220px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.nav-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(19, 19, 37);
+    height: 50px;
+}
+
+.nav-2 ul li, .nav-2 input[type=text] {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-2 ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.nav-2 input[type=text] {
+    /* float: right; */
+    padding: 6px;
+    border-color: rgb(187, 185, 185);
+    font-size: 17px;
+    background-color: rgb(23, 23, 46);
+    border-radius: 50px;
+    color: white;
+  }
+
+.nav-2 ul .fchild a{
+      color: dodgerblue;
+  }
+
+  .img {
+      position: relative;
+  }
+
+.body {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+
+  }
+
+.body p {
+    color: white;
+  }
+
+.body p:nth-child(2) {
+    font-size: 50px;
+  }
+
+.body p:nth-child(3) {
+    font-size: 50px;
+}
+
+.img .body button {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
+
+.body-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.half h1 {
+    color: rgb(104, 104, 177);
+}
+
+.half {
+    padding: 20px;
+    display: inline-block;
+    /* top: 100px; */
+}
+
+.cover {
+    display: inline-block;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
